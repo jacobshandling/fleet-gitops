@@ -33,7 +33,7 @@ team_settings:
     - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
 software:
   packages:
-    - path: tailscale.package.yml
+    - path: ../lib/software/tailscale-package.yml
       # labels_include_any: # Available in Fleet Premium
       #   - Engineering
       #   - Customer Support
