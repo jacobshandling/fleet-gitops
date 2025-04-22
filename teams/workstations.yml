@@ -19,8 +19,14 @@ agent_options:
   path: ../lib/agent-options.yml
 controls:
   scripts:
-    - path: ../lib/remove-zoom-artifacts.script.sh
-    - path: ../lib/set-timezone.script.sh
+    - path: ../lib/scripts/remove-zoom-artifacts.script.sh
+    - path: ../lib/scripts/set-timezone.script.sh
+    - path: ../lib/scripts/Atestscript.ps1
+    - path: ../lib/scripts/collect-fleetd-logs.sh
+    - path: ../lib/scripts/hello-world.sh
+    - path: ../lib/scripts/long-script.sh
+    - path: ../lib/scripts/uninstall-zoom.script.sh
+    - path: ../lib/scripts/Ztestscript.ps1
 team_settings:
   secrets:
     - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
