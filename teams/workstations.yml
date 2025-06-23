@@ -37,8 +37,8 @@ software:
       # labels_include_any: # Available in Fleet Premium
       #   - Engineering
       #   - Customer Support
-  app_store_apps:
-    - app_store_id: '1091189122'
+  # app_store_apps:
+  #   - app_store_id: '1091189122'
       # labels_include_any: # Available in Fleet Premium
       #   - Product
       #   - Marketing
