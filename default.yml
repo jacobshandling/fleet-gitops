@@ -19,3 +19,5 @@ org_settings:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
     enable_software_inventory: true
+  sso_settings:
+    
